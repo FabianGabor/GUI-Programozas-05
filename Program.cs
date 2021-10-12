@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;
 
@@ -171,17 +169,17 @@ namespace GUI_05
         
         public static void Main(string[] args)
         {
-            //Console.WriteLine(SumRange());
-            //MultiplicationTable();
+            Console.WriteLine("SumRange = " + SumRange());
+            MultiplicationTable();
             MinMax3Num();
-            /*
             Sum150();
+            
             int[] array = {6, 2, 5, 4, 15, 9, 21};
             Console.WriteLine("Switch count: " + BubbleSort(array));
-            Console.WriteLine("Switch count: " + RandomSort(array));
-            SolarBitflipSort(array); // Napkitores eseten esely van ra, hogy az elektromagneses hullamok miatt nem ECC RAM-mal rendelkezo gepeken a memoriaban bitflip tortenik es igy esely van egy rendezett tombre
+            //Console.WriteLine("Switch count: " + RandomSort(array));
+            //SolarBitflipSort(array); // Napkitores eseten esely van ra, hogy az elektromagneses hullamok miatt nem ECC RAM-mal rendelkezo gepeken a memoriaban bitflip tortenik es igy esely van egy rendezett tombre
             SleepSort(array); // nem terit vissza szamot, mert nincs valos rendezes
-            */
+            
         }
     }
 }
